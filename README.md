@@ -6,7 +6,7 @@
 
 imdb_scraper is a tool build with Python to grab, collect, dowload and explore data from TV serie's and metrics from IMDB. Since IMDB don't have any official API or access method to his data, we use "scraping methods", consisting on read the html code and extract the information we want. 
 
-![Spotixplore graph image](https://raw.githubusercontent.com/AdriaPadilla/imdb_scraper/master/imdb_scraper/img/graph.jpg)
+![Spotixplore graph image](https://raw.githubusercontent.com/AdriaPadilla/imdb_scraper/master/imdb_series_scraper/img/graph.jpg)
 
 ## 2. ¿What kind of data this tool collect? ##
 
