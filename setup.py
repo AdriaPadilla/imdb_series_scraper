@@ -1,9 +1,9 @@
 import setuptools
 
 
-setuptools.setup(name='imdb_scraper',
-      version="1.0.3",
-      url = "https://github.com/AdriaPadilla/imdb_scraper/", 
+setuptools.setup(name='imdb_series_scraper',
+      version="1.0.4",
+      url = "https://github.com/AdriaPadilla/imdb_series_scraper/", 
       description='scrape IMDB series and create metrics for statistics',
       author='Adrian Padilla',
       author_email='adrian.padilla.m@gmail.com',
