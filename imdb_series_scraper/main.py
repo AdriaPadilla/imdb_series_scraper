@@ -8,13 +8,13 @@ import datetime
 time = datetime.datetime.now()
 
 
-def main(series, output=str(time)+".xlsx"):
+def main(series):
     df_all = pd.DataFrame()
     for serie in series:
         the_data_df = sc.crawler(serie)
         df_all = pd.concat([df_all, the_data_df], axis=0)
-    df_all.to_excel(output)
-    print(df_all)
+    # df_all.to_excel(output)
+    return df_all
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Scrape series from IMDB')
