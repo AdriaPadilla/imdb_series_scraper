@@ -1,6 +1,6 @@
 import pandas as pd
-import imdb_scraper.scraper.scraper_serie as sr
-import imdb_scraper.metrics.metrics as mt
+import imdb_series_scraper.scraper.scraper_serie as sr
+import imdb_series_scraper.metrics.metrics as mt
 
 def crawler(serie):
     current_season = 1
